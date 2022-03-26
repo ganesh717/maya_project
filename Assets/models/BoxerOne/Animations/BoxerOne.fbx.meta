@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 0219a32422092ac4eb27cba23f508387
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxer2_emmision_BaseColor
+    second: {fileID: 2800000, guid: 38151d4fdf3bae44a9266a8cdd8986db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxer2_emmision_Emissive
+    second: {fileID: 2800000, guid: a6268a8d567287c4ab168f9f0f7aee4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxer2_emmision_Metalness
+    second: {fileID: 2800000, guid: a8ac7655d53311140af1db10b35cdedb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxer2_emmision_Normal
+    second: {fileID: 2800000, guid: e0210d7131d52594994f2433cc3aa5eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxer2_emmision_Roughness
+    second: {fileID: 2800000, guid: 77d45ae53f05e554980d5f49b06d6567, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_body_BaseColor
+    second: {fileID: 2800000, guid: 45c2f71ff01263746bb4e1faf90f5c9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_body_Metalness
+    second: {fileID: 2800000, guid: 09356e95fc167be4b970ace40aa9375d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_body_Normal
+    second: {fileID: 2800000, guid: 53109c0b4bcd6f247bb8dca13304e790, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_body_Roughness
+    second: {fileID: 2800000, guid: be9493a525c85d841a7b711b857b1eed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_hair_BaseColor
+    second: {fileID: 2800000, guid: 843af167b33ce104da52aad4a951925c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_hair_Metalness
+    second: {fileID: 2800000, guid: e5fc398d93da5d640a3831cbf3ed094b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_hair_Normal
+    second: {fileID: 2800000, guid: d124429b1fd26764495be61c0bffa067, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_hair_Roughness
+    second: {fileID: 2800000, guid: a2d092eb1a4da9942b6cdfd2cdeb18bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_head_BaseColor
+    second: {fileID: 2800000, guid: f927ffdddd897f04a9eb8b4481e6c183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_head_Metalness
+    second: {fileID: 2800000, guid: 34d6627500a2abf448ff642f1c3f633b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_head_Normal
+    second: {fileID: 2800000, guid: 809d02c76ac135a43ba4693d7f04c70e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_head_Roughness
+    second: {fileID: 2800000, guid: 2ece242f44005b243923c466adb618e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_lipes_BaseColor
+    second: {fileID: 2800000, guid: a72f39838b6a7e04bbfd550955ba247e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_lipes_Metalness
+    second: {fileID: 2800000, guid: d10dc3b2280a17c4bac8bcdecef729e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_lipes_Normal
+    second: {fileID: 2800000, guid: 1105cb4bddf366046922b7861e6c87e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: characterhacker_lipes_Roughness
+    second: {fileID: 2800000, guid: 3cf8c794a2a120940b1b6a2cfbcd28c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_blackguard_BaseColor
+    second: {fileID: 2800000, guid: 62432b06513dd7f4baae7c4968af4ca3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_blackguard_Metalness
+    second: {fileID: 2800000, guid: bb2002e7dbdd8c0409571dcaa0b590b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_blackguard_Normal
+    second: {fileID: 2800000, guid: c2385f2035ac6084abbaac3f32c8d40a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_blackguard_Roughness
+    second: {fileID: 2800000, guid: 9599cc5fbe605fa41a0e122c6abdfe99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade1_BaseColor
+    second: {fileID: 2800000, guid: 61e6b46846a5607469dd1258c317d8b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade1_Emissive
+    second: {fileID: 2800000, guid: abb4ba6bf08fcac489cd0a3565c41ad8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade1_Metalness
+    second: {fileID: 2800000, guid: 2750f96192452384cb53352cfbeea861, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade1_Normal
+    second: {fileID: 2800000, guid: 54c7b875f6c74e0408fac76afaecaba4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade1_Roughness
+    second: {fileID: 2800000, guid: eae776cec359983499e923b6256c443f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade2_BaseColor
+    second: {fileID: 2800000, guid: ef6ea7fecfcfa13458d02b4bfd6c1d5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_maskshade2_Emissive
+    second: {fileID: 2800000, guid: 94e1d73c6726c184c9283b1acf5365dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_whitebody_BaseColor
+    second: {fileID: 2800000, guid: 2a3bc0c3a9942ee4a94cb477c06455f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_whitebody_Metalness
+    second: {fileID: 2800000, guid: cde3b6f96520f49469d3182580d97811, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_whitebody_Normal
+    second: {fileID: 2800000, guid: 66d23e29dcb0d7f4487b829ab9014951, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hackerdress_whitebody_Roughness
+    second: {fileID: 2800000, guid: 6025b2d572dba3646995f5461a9dbeb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: realistic-human-eye-texture-free-766.jpg
+    second: {fileID: 2800000, guid: 33d74bf1f7662f5489047c8b4697830a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_aluminum_BaseColor
+    second: {fileID: 2800000, guid: 7b53e20f34e4de64492858967564d641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_aluminum_Emissive
+    second: {fileID: 2800000, guid: b49414ac08b3d624dafcd478e1b3818a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_aluminum_Metalness
+    second: {fileID: 2800000, guid: 6cdeedbbc5e14e6449261f283b8febc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_aluminum_Normal
+    second: {fileID: 2800000, guid: b01b94fff3684054db82ed037aa24947, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_aluminum_Roughness
+    second: {fileID: 2800000, guid: 94f20640ff3c1384d8bb05ed3c45f44c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_black_2_BaseColor
+    second: {fileID: 2800000, guid: 553ae71581c00964793d49b65986a659, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_black_BaseColor
+    second: {fileID: 2800000, guid: 2a948b6936e3a584594d795e96cfd5d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_black_Metalness
+    second: {fileID: 2800000, guid: 1fb26e4bbfa91494fb5a849055374778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_black_Normal
+    second: {fileID: 2800000, guid: 0ad1550a905dda94593f45187c6f5902, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_black_Roughness
+    second: {fileID: 2800000, guid: d2cab3ac7b79f974da2db663565a9a9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_blue_Metalness
+    second: {fileID: 2800000, guid: 98f6e49dd56121f4e91dfcb1f8dd7e4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_blue_Normal
+    second: {fileID: 2800000, guid: 6882df06b3771ae4d8c62b1b55982695, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_blue_Roughness
+    second: {fileID: 2800000, guid: a6337c0e577410e448531b0658708869, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_red_Normal
+    second: {fileID: 2800000, guid: 0f1f6cc6e8c602542800c26a362c4ac0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_red_Roughness
+    second: {fileID: 2800000, guid: 1366b64ec85213d43b71af33b188d7de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_white_BaseColor
+    second: {fileID: 2800000, guid: c7c4214711ec774468c1e6c442048a8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoe_white_Metalness
+    second: {fileID: 2800000, guid: 1b53d35d27a509c41976eefd480b5ce7, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 20
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 99c35eca22a2c8345a7dfff4e78ddc0e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_SIDERED_BaseColor
+    second: {fileID: 2800000, guid: aa1cd821972d0194e8b2e52976a6734e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_SIDERED_Metalness
+    second: {fileID: 2800000, guid: 29795ba887e9e124e9dbb82e05b0b47f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_SIDERED_Normal
+    second: {fileID: 2800000, guid: 6fff5f0e68458c34883c892565e126e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_SIDERED_Roughness
+    second: {fileID: 2800000, guid: f526d6b7eda0ff546aa33394d663c793, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_WHITESIDE_BaseColor
+    second: {fileID: 2800000, guid: 45c651aeaad1b674b87e59a1c3dfba2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_WHITESIDE_Metalness
+    second: {fileID: 2800000, guid: 7ee7dd9aa4e6381419ba4a37342344b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_WHITESIDE_Normal
+    second: {fileID: 2800000, guid: 5df591f3e1f4ba642b2175a62be12641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_WHITESIDE_Roughness
+    second: {fileID: 2800000, guid: 840365ba7a126ae4eb699b42a09bfb5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_downwords_BaseColor
+    second: {fileID: 2800000, guid: a2747a433020bb34788b329236fe8ebc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_downwords_Emissive
+    second: {fileID: 2800000, guid: 834265164de46494181eb1f93febd2ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_downwords_Metalness
+    second: {fileID: 2800000, guid: 662c0119d75f4ef4bb62c4717633f7d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_downwords_Normal
+    second: {fileID: 2800000, guid: 5ce93e69ccc19da4b9b90201a83956da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_downwords_Roughness
+    second: {fileID: 2800000, guid: bf4dc730323f6e4408696508cd47db49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_post_BaseColor
+    second: {fileID: 2800000, guid: aac09a29959b06e4cbb5c3c85f69efe2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_post_Emissive
+    second: {fileID: 2800000, guid: 90cc8ff0404e7c8488cdb174185c9028, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_post_Metalness
+    second: {fileID: 2800000, guid: 3bef8f0fa4a2f39429937ce456be5268, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_post_Normal
+    second: {fileID: 2800000, guid: dcb04e3cd1dcaed4389a8af84c8c9559, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_post_Roughness
+    second: {fileID: 2800000, guid: 841259f901e5b684d8b250b9c4f1be8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropeblack_BaseColor
+    second: {fileID: 2800000, guid: 819f9490505a16544b36283106956607, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropeblack_Emissive
+    second: {fileID: 2800000, guid: 9dfd34f31af074248a48c999c5a102e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropeblack_Metalness
+    second: {fileID: 2800000, guid: e1cefe4749be38d48af5a32bc7593e7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropeblack_Normal
+    second: {fileID: 2800000, guid: 77bbd476860619a44a3b6b692b374474, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropeblack_Roughness
+    second: {fileID: 2800000, guid: eeb4e1a3efb35d6429084b620a82a905, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropered_BaseColor
+    second: {fileID: 2800000, guid: 0e32c04218d424047935d769324189ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropered_Emissive
+    second: {fileID: 2800000, guid: aa361bb6ba2b6c646a5de2091bb3a8f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropered_Metalness
+    second: {fileID: 2800000, guid: 922ce41c67fec0a4bb153ca801a03b75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropered_Normal
+    second: {fileID: 2800000, guid: f21e943362e9f2b4d9d69627d386c97b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_ropered_Roughness
+    second: {fileID: 2800000, guid: 3c30d2b561328fe44821eaca996e38e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_step_BaseColor
+    second: {fileID: 2800000, guid: 2e95f0bf276c8484ea666412d443c7c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_step_Emissive
+    second: {fileID: 2800000, guid: 9fa42834bf409dd488feaf75c0c24b48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_step_Metalness
+    second: {fileID: 2800000, guid: f52ed5c7a89c52e4a86d5b6b09d25da4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_step_Normal
+    second: {fileID: 2800000, guid: 18ce4a03af0a95f4db0cc2095098a882, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxingstage_step_Roughness
+    second: {fileID: 2800000, guid: 617282eb9ede85941a0968c732c81d12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_buildingwalls_BaseColor
+    second: {fileID: 2800000, guid: dc65daade45885c46ad977098294d815, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_buildingwalls_Metalness
+    second: {fileID: 2800000, guid: 4453859ec6d758e4cbdd3e35a9e555ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_buildingwalls_Normal
+    second: {fileID: 2800000, guid: c70450ec9a1ce464290d98158ee83393, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_buildingwalls_Roughness
+    second: {fileID: 2800000, guid: 6d1f6ecee47b35a43a37999c8fddf26f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_doorsteel_BaseColor
+    second: {fileID: 2800000, guid: f6fe848106005b54fad8bfd653086197, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_doorsteel_Metalness
+    second: {fileID: 2800000, guid: e346968712f17bf439ccb0fce133a56f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_doorsteel_Normal
+    second: {fileID: 2800000, guid: bfbc56a18230d0548a235e2eb0bb562b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_doorsteel_Roughness
+    second: {fileID: 2800000, guid: 62817174983f82449bb397940c54e830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exteriorcolor_BaseColor
+    second: {fileID: 2800000, guid: d0c4cb6dcfbe73d4f8c2db7c3b00c13b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exteriorcolor_Metalness
+    second: {fileID: 2800000, guid: f4854b57bcec6c74ebcddfc61ad9bb26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exteriorcolor_Normal
+    second: {fileID: 2800000, guid: cdfba9e5109b915409e463330e1cad55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exteriorcolor_Roughness
+    second: {fileID: 2800000, guid: a990c0039683d5941b7e46111fe0b0f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterioremmision2_BaseColor
+    second: {fileID: 2800000, guid: fbb50ae827f748b4f90fd169c57e3f7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterioremmision2_Metalness
+    second: {fileID: 2800000, guid: 1154d1157b8dae0488d83266d11840c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterioremmision2_Normal
+    second: {fileID: 2800000, guid: 66011107a0a85dd439f5a69057a12955, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterioremmision2_Roughness
+    second: {fileID: 2800000, guid: 2b618a51ef62363438b2c3263aacbf5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterrioremmision1_BaseColor
+    second: {fileID: 2800000, guid: c262ac2b0a3310045bdbc07a7321c951, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterrioremmision1_Emissive
+    second: {fileID: 2800000, guid: ec0dfca103a7e3044ba1fa15c55781f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterrioremmision1_Metalness
+    second: {fileID: 2800000, guid: d0a6f3cf54222824cb49e6e57cca5bd0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterrioremmision1_Normal
+    second: {fileID: 2800000, guid: ad7b9ec36019a6840a55ddb9b79c8600, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_exterrioremmision1_Roughness
+    second: {fileID: 2800000, guid: 3fcfb633ce8389846a7fb97472db78c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_floor_BaseColor
+    second: {fileID: 2800000, guid: ff386b5a99eebf342ba8a59c91cb6cab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_floor_Metalness
+    second: {fileID: 2800000, guid: 0451eea2e5d4dd346b5e34a9707ff182, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_floor_Normal
+    second: {fileID: 2800000, guid: afd33696af42e7c4a96a3e5582841aaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_floor_Roughness
+    second: {fileID: 2800000, guid: e6f78c0f6ae794b438a1817437e8f392, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_ground_BaseColor
+    second: {fileID: 2800000, guid: 09a668449a728ba44bf078ef23254c3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_ground_Metalness
+    second: {fileID: 2800000, guid: 14d5d7cc07f913046905f3948684092c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_ground_Normal
+    second: {fileID: 2800000, guid: 031c8dd0c2cbc704ea6bfba1ba703fc7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_ground_Roughness
+    second: {fileID: 2800000, guid: aaff53a8b047add46abddbf9480c8e03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_inlight_BaseColor
+    second: {fileID: 2800000, guid: a8f6cabb60fbe5f41aa27a1306adfaff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_inlight_Emissive
+    second: {fileID: 2800000, guid: 83bbddcafe9074947ae00b2d57b556b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_inlight_Metalness
+    second: {fileID: 2800000, guid: 1402e72a7384fa049834479914f53d1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_inlight_Normal
+    second: {fileID: 2800000, guid: 8da87bb6090ff9d44ba2725f2070006f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_inlight_Roughness
+    second: {fileID: 2800000, guid: d7b5fd8703ffac747a4184010e8b4f01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_interior_BaseColor
+    second: {fileID: 2800000, guid: f2f909a8cea1b29478d7303aac41daa8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_interior_Metalness
+    second: {fileID: 2800000, guid: 8cbd66100d9432841a2da1984b3b049e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_interior_Normal
+    second: {fileID: 2800000, guid: 498ef738309c0af44afa02975a656c65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_interior_Roughness
+    second: {fileID: 2800000, guid: 8a4fb8b086134084d9cbc899b80a2e13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed1_BaseColor
+    second: {fileID: 2800000, guid: 7d1e0d736f941bb489de92532dba6da0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed1_Emissive
+    second: {fileID: 2800000, guid: fc121e2dff6538645b738124cabf1dc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed1_Metalness
+    second: {fileID: 2800000, guid: ba01ce87b64c96649909341547fb230b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed1_Normal
+    second: {fileID: 2800000, guid: 5d21c1782cae33b43899787ac8e25980, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed1_Roughness
+    second: {fileID: 2800000, guid: cb3a26d78f39c8f40b4567f3f93edbee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed2_BaseColor
+    second: {fileID: 2800000, guid: 9b2258a273f53ac46a0f30e4df65c43c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed2_Metalness
+    second: {fileID: 2800000, guid: 33c8626b98a86b24e9c867923e87277d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed2_Normal
+    second: {fileID: 2800000, guid: d53890b0eb4b4ee429ea52e5e07971d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_shed2_Roughness
+    second: {fileID: 2800000, guid: 0efa9ea985b516645b34a58355efa2e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_sidestone_BaseColor
+    second: {fileID: 2800000, guid: 14c06912b2d1279448ff6806fba4e8b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_sidestone_Metalness
+    second: {fileID: 2800000, guid: 00c99d9ac3923c743a34f9719d534d26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_sidestone_Normal
+    second: {fileID: 2800000, guid: 63a36780d4ab2df47a927b87ae7f0088, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_sidestone_Roughness
+    second: {fileID: 2800000, guid: 35f3ff1de0c965a4da31d82ffc3c8d5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_windows_BaseColor
+    second: {fileID: 2800000, guid: 7d976e5d1efb8b34d8a5362a60b42f07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_windows_Metalness
+    second: {fileID: 2800000, guid: fa1c3b3bd31e3814aa1c8918cae3fdb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_windows_Normal
+    second: {fileID: 2800000, guid: eb19a445d2755ee4f9b8ed925680093f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: building_windows_Roughness
+    second: {fileID: 2800000, guid: 81e45a889663b6a4f8e47754909a01d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_emmeision_BaseColor
+    second: {fileID: 2800000, guid: 7935ab6958c3cdb4b885eb924b7c461b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_emmeision_Emissive
+    second: {fileID: 2800000, guid: 2a195240ea52e1f468dc9f81a39bbf0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_emmeision_Metalness
+    second: {fileID: 2800000, guid: edf0fa3e70adef9418b6e71023f3a8b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_emmeision_Normal
+    second: {fileID: 2800000, guid: 50ae5aea89d609945a7299e0f349b68b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_emmeision_Roughness
+    second: {fileID: 2800000, guid: 0d94dafb99091da4ab4eab312ea1cab9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_wood_BaseColor
+    second: {fileID: 2800000, guid: db8712420c4e0ca4b9189a883a0badc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_wood_Metalness
+    second: {fileID: 2800000, guid: f88653cb41db84f4b8a0981a5428f698, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_wood_Normal
+    second: {fileID: 2800000, guid: 2c1a12d2821fd084a9bad17b38f6b3b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chair_wood_Roughness
+    second: {fileID: 2800000, guid: f231430f240469647b7d5627fb097168, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_EMMSION_BaseColor
+    second: {fileID: 2800000, guid: 19f1204ebba37fc4c8348b1531f16fcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_EMMSION_Emissive
+    second: {fileID: 2800000, guid: 8f0cb16ffb2972e42a1c2d888e444228, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_EMMSION_Metalness
+    second: {fileID: 2800000, guid: d818be12130bc2b4ca62e19b78be7e16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_EMMSION_Normal
+    second: {fileID: 2800000, guid: 740e73df465b8274cb038229188a3c49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_EMMSION_Roughness
+    second: {fileID: 2800000, guid: 4f4471fc5e2f02c4682d349ef326f11b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_LIGHT_BaseColor
+    second: {fileID: 2800000, guid: 05b113370e0b40942b1a688c04096100, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_LIGHT_Metalness
+    second: {fileID: 2800000, guid: 3fa3598eba64abb4f880591017d676e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_LIGHT_Normal
+    second: {fileID: 2800000, guid: 01897849ecf62f647913919443b8e663, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_LIGHT_Roughness
+    second: {fileID: 2800000, guid: 59d73e9ed29e708458624b84afeb0b42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_STEEL_BaseColor
+    second: {fileID: 2800000, guid: 407f606df65968743928fa1a46c86e39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_STEEL_Metalness
+    second: {fileID: 2800000, guid: e4a1e9c1e691314429f477e31031d063, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_STEEL_Normal
+    second: {fileID: 2800000, guid: 3ab6e5b12a013194884f4f772129f931, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_STEEL_Roughness
+    second: {fileID: 2800000, guid: d3b387adbce979f479d1a49bb45690bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_display_BaseColor
+    second: {fileID: 2800000, guid: 7672eae651f22a043a1ea3de49362f27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_display_Emissive
+    second: {fileID: 2800000, guid: c8a026513dec83d41a9f687ed5d82aba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_display_Metalness
+    second: {fileID: 2800000, guid: e13fc2b5aacbc00459f33aeb92e371ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_display_Normal
+    second: {fileID: 2800000, guid: 48f7e4386459e8949af6197626d7516c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nameboard_display_Roughness
+    second: {fileID: 2800000, guid: 0b33d25b3aa41474ab4a18da16c9d2d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTBASE_BaseColor
+    second: {fileID: 2800000, guid: cea8ad2da1b1e1c46b6652dd21efb7ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTBASE_Metalness
+    second: {fileID: 2800000, guid: 8d7be0d3ef25dfa4da6d01cdb06dbeee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTBASE_Normal
+    second: {fileID: 2800000, guid: 746bddee373061248bea117a465d2d7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTBASE_Roughness
+    second: {fileID: 2800000, guid: c4dc069c8900f12429b1a77436fa4167, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTCHROM_BaseColor
+    second: {fileID: 2800000, guid: 2028ed697d0b6324ba2a507ba9f4c0ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTCHROM_Metalness
+    second: {fileID: 2800000, guid: 26334ea3f71fc0840946b8ca42125a88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTCHROM_Normal
+    second: {fileID: 2800000, guid: abf870a3d03478040b961eb02da21b13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTCHROM_Roughness
+    second: {fileID: 2800000, guid: f6adfe08b06485a4780262253dfd78ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTRED_BaseColor
+    second: {fileID: 2800000, guid: 64c537f8a107b4e438530a0bcb107170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTRED_Emissive
+    second: {fileID: 2800000, guid: 08908e23d67c3dc418c54899ede51e53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTRED_Metalness
+    second: {fileID: 2800000, guid: 4def7df59e5996a409dcc54245126953, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTRED_Normal
+    second: {fileID: 2800000, guid: 91e887781c347cc48830cf6ce2cc51f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTRED_Roughness
+    second: {fileID: 2800000, guid: dad09a2ea930d054d823cf6bcbde901b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTYELO_BaseColor
+    second: {fileID: 2800000, guid: 6d698e0cc5536df4786aa6e5c41c36e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTYELO_Emissive
+    second: {fileID: 2800000, guid: eef0293182eea7c438b7e09a297aac35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTYELO_Metalness
+    second: {fileID: 2800000, guid: 24c9f370c1b7a5444961e915f6719981, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTYELO_Normal
+    second: {fileID: 2800000, guid: 35b3db0a62803a149b1e379fb90fc519, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_LIGHTYELO_Roughness
+    second: {fileID: 2800000, guid: 5b12e5666fd9c2f41bea0265f572cc5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVDISPLAY_BaseColor
+    second: {fileID: 2800000, guid: d3da84ebe7f91f448a6e3178661b6b41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVDISPLAY_Emissive
+    second: {fileID: 2800000, guid: 0aa3edab550458a438c397769bc0f8de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVDISPLAY_Metalness
+    second: {fileID: 2800000, guid: bf0c32d367c39bc45960336623307b2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVDISPLAY_Normal
+    second: {fileID: 2800000, guid: 8905d314933879c43917292b036f596a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVDISPLAY_Roughness
+    second: {fileID: 2800000, guid: 197e97a40ecdb2647947b3f222d0ad19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVLIGHT_BaseColor
+    second: {fileID: 2800000, guid: 919a507caeadf794ea2d221ade6c9640, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVLIGHT_Metalness
+    second: {fileID: 2800000, guid: 40225fd064b36b641a5767ac7d9f0191, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVLIGHT_Normal
+    second: {fileID: 2800000, guid: 9edca3a5cb4c2e940a4785ea57ecda2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_TVLIGHT_Roughness
+    second: {fileID: 2800000, guid: ab4bf996d964fde48b86243f41dfe6b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_topsteel_BaseColor
+    second: {fileID: 2800000, guid: 7482c9efd8e1cf944987b0de3093e8df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_topsteel_Emissive
+    second: {fileID: 2800000, guid: ff1ba721a15ea4a43a8d4a5afa2d2f0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_topsteel_Metalness
+    second: {fileID: 2800000, guid: 9340e7bf77c8fa74480faab520e8d8b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_topsteel_Normal
+    second: {fileID: 2800000, guid: 4e5f606e78c73ea4ba3a66eaeb398047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stagelights_topsteel_Roughness
+    second: {fileID: 2800000, guid: b397eb713ffb93d4c8b1af89b4ad822e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 17
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 17
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
