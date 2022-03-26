@@ -37,6 +37,8 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Awake()
     {
         animator = this.transform.GetChild(0).GetComponent<Animator>();
+  
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
